@@ -402,17 +402,25 @@
         <div class="foter-data-subscribe">
           <p class="footer-title-subscribe">Subscribe</p>
           <form class="form-footer-subscribe">
-          <input class="input-footer-subscribe" name="user-email-subscribe" id="user-email-subskribe" type="email" placeholder="Email"/>
-          <button type="button" class="button-subscribe">Subscribe
-            <svg class="footer-icon-subscribe" width="24" height="24">
-              <use href="./images/icons.svg#icon-frame"></use>
-            </svg>
-          </button>
+            <label class="footer-label-subscribe">
+              <input
+                class="input-footer-subscribe"
+                name="user-email-subscribe"
+                id="user-email-subskribe"
+                type="email"
+                placeholder="Email"
+            /></label>
+            <button type="submit" class="buttons-subscribe">
+              Subscribe
+              <svg class="footer-icon-subscribe" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </button>
+          </form>
         </div>
-      </form>
       </div>
     </footer>
-    <div class="backdrop " data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-buttom" type="button" data-modal-close>
           <svg class="backdrop-icon" width="8" height="8">
@@ -424,44 +432,40 @@
         </p>
         <form>
           <div class="modal-form-data">
-          <label for="user-name" class="modal-label-data"
-            >Name
+            <label for="user-name" class="modal-label-data">Name</label>
             <div class="form-data-icon">
-            <input name="user-name" class="modal-input-data" type="text" id="user-name" autofocus />
-            <svg class="modal-input-icon" width="18" height="24" id="user-name">
-              <use href="./images/icons.svg#icon-person"></use>
-            </svg>
-          </label>
-        </div>
-      </div>
-          <label id="user-tel" class="modal-label-data"
-            >Phone<div class="modal-form-data">
+              <input
+                name="user-name"
+                class="modal-input-data"
+                type="text"
+                id="user-name"
+                autofocus
+              />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <label id="user-tel" class="modal-label-data">Phone</label>
+          <div class="modal-form-data">
             <div class="form-data-icon">
-            <input name="user-tel" class="modal-input-data" type="tel" />
-            <svg class="modal-input-icon" width="18" height="24" id="user-tel">
-              <use href="./images/icons.svg#icon-phone"></use>
-            </svg>
-          </label>
-        </div>
-      </div>
-      
-          <label id="user-email" class="modal-label-data"
-            >Email<div class="modal-form-data">
+              <input name="user-tel" class="modal-input-data" type="tel" />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <label id="user-email" class="modal-label-data">Email</label>
+          <div class="modal-form-data">
             <div class="form-data-icon">
-            <input name="user-email" class="modal-input-data" type="email" />
-            <svg
-              class="modal-input-icon"
-              width="18"
-              height="24"
-              id="user-email"
-            >
-              <use href="./images/icons.svg#icon-email"></use>
-            </svg>
-          </label>
-        </div>
-        </div>
-          <label for="user-comment" class="modal-label-data"
-            >Comments<div class="form-data-icon">
+              <input name="user-email" class="modal-input-data" type="email" />
+              <svg class="modal-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <label for="user-comment" class="modal-label-data">Comments</label>
+          <div class="form-data-icon">
             <textarea
               name="user-comment"
               id="user-comment"
@@ -469,22 +473,28 @@
               placeholder="Text input"
             >
             </textarea>
-          </label></div>
+          </div>
           <div class="modal-checkbox-date">
-          <input class="modal-privacy-policy visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true"/>
-          <label class="modal-privacy-title" for="user-privacy">
-          <span class="modal-privacy-policy">
+            <input
+              class="modal-privacy-policy visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+            />
+            <label class="modal-privacy-title" for="user-privacy"></label>
+            <span class="modal-privacy-policy">
               <svg class="modal-icon-checkbox" width="10" height="8">
-              <use href="./images/icons.svg#icon-property"></use></svg>
-            </span>I accept the terms and conditions of the <a class="modal-link-privacy" href="">Privacy Policy</a>
-          </label> 
-        </div></form>
-        <button type="button" href="" class="button-modal-send">
-          Send
-        </button>
+                <use href="./images/icons.svg#icon-property"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a class="modal-link-privacy" href="">Privacy Policy</a>
+          </div>
+        </form>
+        <button type="button" class="button-modal-send">Send</button>
       </div>
     </div>
-  </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
