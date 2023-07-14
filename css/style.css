@@ -536,14 +536,14 @@ img {
 .input-footer-subscribe {
   width: 264px;
   height: 40px;
-  color: var(--backgrond-page-color);
+  color: #ffffff;
   padding-left: 16px;
   border-radius: 4px;
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  background-color: var(--backgrong-footer-color);
+  background-color: transparent;
   border: 1px solid var(--backgrond-page-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -897,6 +897,11 @@ img {
 
 .modal-link-privacy {
   color: var(--background-button-color);
+  font-family: var(--prymary-font);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 
 .button-modal-send {
