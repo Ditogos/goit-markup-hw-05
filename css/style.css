@@ -883,6 +883,13 @@ img {
   letter-spacing: 0.04em;
 }
 
+.modal-privacy-policy:checked + .modal-privacy-policy>.modal-icon-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+
 .modal-icon-checkbox {
   width: 10px;
   height: 8px;
