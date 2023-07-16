@@ -820,9 +820,6 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input-data:focus + .modal-input-icon {
-  fill: var(--background-button-color);
-}
 
 .modal-input-data:focus {
   border-color: var(--background-button-color);
