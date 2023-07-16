@@ -918,7 +918,7 @@ img {
   display: block;
   margin: 0 auto;
   margin-top: 24px;
-  width: 56px;
+  height: 56px;
   min-width: 169px;
   padding: 16px 32px;
   color: var(--backgrond-page-color);
@@ -926,7 +926,7 @@ img {
   font-family: var(--prymary-font);
   font-size: 16px;
   font-weight: 500;
-  line-height: 0.4em;
+  line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
   border: none;
